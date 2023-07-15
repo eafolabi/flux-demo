@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: eafolabi/8-demo-flux:7.8.0
+          image: eafolabi/8-demo-flux:7.8.0 # {"$imagepolicy" "flux-system:8-demo-image-policy"}
           imagePullPolicy: Always
           resources:
             requests:
